@@ -1,0 +1,89 @@
+@font-face {
+    font-family: wedding_font;
+    src: url(./fonts/UTM\ Wedding\ K&T.ttf);
+}
+
+* {
+    margin: 0px;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.image-1 {
+    width: 700px;
+    height: 500px;
+    background: url(./images/nen-hoa-hong.jpg) 100% no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.image-2 {
+    width: 430px;
+    height: 350px;
+    background: url(./images/binh-hoa.jpg) 100% no-repeat;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.content h1 {
+    font-family: wedding_font;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 3px 3px 10px #fe029c, 2px 2px 9px #fb9bd2, 1px 1px 8px#fb9bd2;
+    color: #fff;
+    margin: 50px;
+}
+
+.introduction p span,
+.contact p span {
+    font-size: 18px;
+    background-color: #fe029c;
+    color: #fff;
+}
+
+.introduction li {
+    list-style-image: url(./images/bullet-hoa-tim.png);
+}
+
+.introduction li span {
+    padding-left: 10px;
+}
+
+.contact li {
+    list-style-image: url(./images/bullet-tron-hong.png);
+}
+
+.contact li span {
+    padding-left: 10px;
+}
+
+.content hr {
+    margin: 15px 0px;
+    width: 90%;
+}
+
+.content p:last-child {
+    color: #9e99de;
+    margin: 15px 0px;
+    font-style: italic;
+}
+
+.content p:last-child span {
+    color: #fc96ad;
+}
